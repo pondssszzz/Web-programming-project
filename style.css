@@ -1,16 +1,158 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     font-family: Century Gothic;
 }
-.signin{
-    float: right;
+body{
+    background-color: #f6f4e6;
 }
-header{
+
+.horizantalRule{
+    /* border-style: dotted none none;
+    border-width: 5px;
+    width: 20%; */
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+.top-container{
+    position: relative;
+    background-color: #fddb3a;
+}
+
+.right-top-container{
+    position: absolute;
+    right : 1%;
+    top : 25%;
+}
+
+.middleContainer{
+    background-color: #41444b;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.navigation-bar{
+    color: #f6f4e6;
+    font-size: 1.25rem;
+    margin-left: 1.875rem;
+    text-decoration: none;
+}
+
+.each-col{
+    display: inline-block;
+    margin-left: 60px;
+    margin-bottom: 20px;
+}
+
+.features{
+    color: #fddb3a;
+    background-color: #41444b;
+    margin: 1% 0.5%;
+    /* border-radius: 50px; */
+}
+
+.image-feat{
+    width: 200px;
+    height: 300px;
+    transition: transform .2s;
+}
+
+.image-feat:hover{
+    transform: scale(1.2);
+}
+
+.text-feat{
+    font-weight: bold;
+    margin-left: 65px;
+    margin-bottom: 10px;
+}
+
+
+.search-box{
+    position: absolute;
+    top: 50%;
+    left: 28%;
+
+    height: 2.5rem;
+    background: #fddb3a;
+    padding: 0.625rem;
+    border-radius: 2.5rem;
+}
+
+.search-box input{
+
+    border: none;
+    background: none;
+    outline: none;
+    width: 500px;
+    line-height: 2.5rem;
+    font-size: 1.875rem;
+    float: left;
+}
+.search-img {
+    width: 100%;
+    height: 31.25rem;
+    object-fit: cover;
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url("background.jpg");
+    position: relative;
+}
+
+.search-btn{
+    border: none;
+    background: none;
+    outline: none;
+    margin-top: -0.375rem;
+}
+.search-btn i {
+    font-size: 1.875rem;
+    background: #52575d;
+    color: #f6f4e6;
+    padding: 0.625rem;
+    border-radius: 1.875rem;
+}
+.right-top-button {
+    margin-right: 1rem;
+	background-color:#52575d;
+	border-top-left-radius:24px;
+
+	border-top-right-radius:24px;
+
+	border-bottom-right-radius:24px;
+	border-bottom-left-radius:24px;
+    text-indent:0;
+	display:inline-block;
+	color:#f6f4e6;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+    height:60%;
+	line-height:50px;
+    width:10rem;
+	text-decoration:none;
+	text-align:center;
+}
+
+/* .signin{
+    float: right;
+    padding-right: 20%;
+} */
+
+.logo{
+    padding-top: 0px;
+    width:15%;
+    height:35%;
+}
+
+/* header{
     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("background.jpg");
     height: 100vh;
     background-size: cover;
-}
+} */
+
 ul{
      float: left;
      margin-top: 50px;
@@ -53,7 +195,7 @@ ul li a:hover{
     left: 50%;
     transform: translate(-50%,-50%);
 }
-input[type=text]{
+/* input[type=text]{
     position: absolute;
     width: 50%;
     height: 5%;
@@ -72,4 +214,74 @@ input[type=text]:focus{
     border-color:dodgerblue;
     box-shadow: 0 0 8px 0 dodgerblue;
 
+} */
+
+/* Search Page */
+.search-filter{
+    background-color:#41444b;
+    position: absolute;
+    width: 20%;
+    /* height:30%; */
+    margin: 2% 2%;
+    left: 0px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.search-box-in-search{
+    padding: 1.25rem;
+    margin-right: 10px;
+    text-align: right;
+}
+
+.search-box-in-search input{
+    padding-left: 5%;
+    width:100%;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+}
+
+.search-btn-in-search{
+    outline: none;
+    border: none;
+    margin-top: 10px;
+    background-color: #fddb3a;
+    color: #41444b;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 5px;
+    /* border-radius: 20px; */
+
+}
+
+.check-box{
+    text-align: left;
+    margin-left: 5%;
+    width: 100%;
+    display: inline-block;
+}
+
+.check-box ul {
+    margin: 0;
+    list-style: none;
+    float: left;
+    color:#f6f4e6;
+    padding-bottom: 10px;
+  }
+
+.header-filter{
+    color: #fddb3a;
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+}
+.item-list{
+    /* background-color:#41444b; */
+    position: absolute;
+    width: 75%;
+    height:30%;
+    margin: 2% 2% 2% 0;
+    right: 0px;
 }

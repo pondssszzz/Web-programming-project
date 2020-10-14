@@ -3,29 +3,94 @@
     <head>
         <title>Project Web</title>
         <link rel="stylesheet" href="style.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
     </head>
     <body>
+
+        <!-- Header -->
         <header>
-            <div class="signin">
-                <ul>
-                    <li><a href="#">log in</a></li>
-                    <li><a href="#">sign up</a></li>
-                </ul>
+            <div class = "top-container">
+            <div>
+                <img class = "logo"src="icon.png" alt="bbicon">
             </div>
-            <div class="main">
+            <div class= "right-top-container">
+                <a class = "right-top-button" href="#">Log in</a>
+                <a class = "right-top-button" href="#">Register</a>
+            </div>
+            <!-- <div class ="right-top-container">
                 <ul>
-                    <li class="act"><a href="#">Home</a></li>
+                    <li><a href="#">Log in</a></li>
+                    <li><a href="#">Sign up</a></li>
+                </ul>
+            </div> -->
+            </div>
+            <!-- Navigation Bar-->
+            <div class="middleContainer">
+                <a class = "navigation-bar" href="#">Home</a>
+                <a class = "navigation-bar" href="#">What's new</a>
+                <a class = "navigation-bar" href="#">Best Seller</a>
+                <a class = "navigation-bar" href="#">Recommended</a>
+                <a class = "navigation-bar" href="#">Contact us</a>
+                <!-- <ul>
+                    <li class="navigtion-bar"><a href="#">Home</a></li>
                     <li><a href="#">What's new</a></li>
                     <li><a href="#">Best seller</a></li>
                     <li><a href="#">Recommended</a></li>
                     <li><a href="#">Contact us</a></li>
-                </ul>
+                </ul> -->
             </div>
-            <div class="title">
-                <h1>What are you looking for ?</h1>
+             <!-- Search Area-->
+            <div>
+                <div>
+                    <div class ="search-img">
+                    <div class="title">
+                        <h1>What you're looking for ?</h1>
+                    </div>
+                    <form class = "search-box" action="">
+                        <input type="text" name="" id="" placeholder="Search for book">
+                        <button class="search-btn" type="button" name="button">
+                            <i class="fas fa-search"></i>
+                        </button>
+                </form>
             </div>
-            <input type="text" placeholder="Enter">
-            <button class="button">Search</button>
+                </div>
+            </div>
+        </header>
+
+         <!-- Content Area-->
+            <div class="features">
+                <br>
+                <center>
+                <h1>Features</h1><br>
+                <hr class="horizantalRule">
+                <br>
+            </center>
+                <div class="each-col">
+                    <img class = "image-feat" src="img/manga-feat.jpg" alt="manga">
+                    <br>
+                    <!-- <a class="text-feat">Manga</a> -->
+                </div>
+                <div class="each-col">
+                    <img class = "image-feat" src="img/manga-feat.jpg" alt="manga">
+                    <br>
+                    <!-- <a class="text-feat">Manga</a> -->
+                </div>
+                <div class="each-col">
+                    <img class = "image-feat" src="img/manga-feat.jpg" alt="manga">
+                    <br>
+                    <!-- <a class="text-feat">Manga</a> -->
+                </div>
+                <div class="each-col">
+                    <img class = "image-feat" src="img/manga-feat.jpg" alt="manga">
+                    <br>
+                    <!-- <a class="text-feat">Manga</a> -->
+                </div>
+                <div class="each-col">
+                    <img class = "image-feat" src="img/manga-feat.jpg" alt="manga">
+                    <br>
+                    <!-- <a class="text-feat">Manga</a> -->
+                </div>
+            </div>
         </header>
     </body>
 </html>
