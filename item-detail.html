@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Check items</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
 </head>
 <body>
       <!-- Header -->
@@ -31,7 +32,43 @@
         <p>Home> <span style="font-weight:bold;">Harry Potter and the Philosopher's Stone</span></p>
         <hr>
         <div class="item-details">
+            <div class = "item-details-box">
+                <div>
+                    <h1 class ="item-title">Harry Potter and the Philosopher's Stone</h1>
+                    <hr class="hr-item-detail">
+                </div>
+                <table>
+                    <tr>
+                        <td class = "col1-item-details">
+                            <img  class= "img-in-detail"src="img/item1.jpg" alt="harry-potter">
+                        </td>
+                        <td class="col2-item-details">
+                            <Div class= "detail">
+                            <label>Author : J. K. Rowling</label><br>
+                            <label>Genres: Novel, Children's literature, High fantasy, Fantasy Fiction</label><br>
+                            <label>Price : 299.99 ฿</label><br>
+                            </Div>
 
+                            <div class="quantity">
+                                <i style="float:left"class="fas fa-plus each-icon"></i>
+                                <h3 class="quantity-number">1</h3>
+                                <!-- <h3 class = "each-icon">1</h3> -->
+                                <i style="float:right"class="fas fa-minus each-icon"></i>
+                            </div>
+                            <br>
+
+                            <button class="add-cart-btn">Add to cart</button>
+
+                            <s>
+                        </td>
+                    </tr>
+                </table>
+                <!-- <span class="col2-item-details">
+                    <label >Author: J. K. Rowling</label>
+                </span> -->
+                <!-- <div class="col3-item-details">
+                </div> -->
+            </div>
         </div>
 </body>
 </html>
